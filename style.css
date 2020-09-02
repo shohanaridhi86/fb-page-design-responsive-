@@ -1,0 +1,256 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+.fb-header {
+	background: linear-gradient(#4B67A1, #3B5998);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	bottom: 1px solid #133783;
+}
+
+.mid {
+	width: 80%;
+	margin: auto;
+}
+.logo {
+	width: 60%;
+	float: left;
+}
+
+.logo img {
+	margin-top: 25px;
+}
+.login-area {
+	width: 40%;
+	float: left;
+}
+
+.login1 input, .login2 input {
+	display: block;
+	padding: 3px;
+	border: 1px solid #1d2a5b;
+	margin-top: 5px;
+}
+.login1 , .login2, .login3 {
+	float: left;
+	margin-right: 10px;
+}
+
+.login1 label, .login2 label {
+	color: #FFF;
+	font-size: 13px;
+}
+
+.login2 a {
+	font-size: 13px;
+	color: #9cb4d8;
+	text-decoration: none;
+}
+
+.login3 input {
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	color: #FFF;
+	font-weight: bold;
+	padding: 3px;
+	margin-top: 25px;
+}
+
+
+.fb-body {
+	background: linear-gradient(#FEFEFE, #D4D9E9);
+	overflow: hidden;
+}
+
+.body-left {
+	width: 57%;
+	float: left;
+}
+
+.body-right {
+	width: 43%;
+	float: left;
+}
+
+.body-left h2 {
+	font-size: 20px;
+	color: #0e385f;
+	margin-top: 40px;
+	width: 80%;
+}
+
+.body-right h1 {
+	font-size: 36px;
+	color: #333;
+	margin-top: 20px;
+}
+
+.body-right h3 {
+	font-weight: normal; 
+	font-size: 19px;
+	color: #1d2129;
+	margin: 15px 0px;
+}
+
+.input-box {
+	width: 85%;
+	overflow: hidden;
+}
+.input-box input {
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.input-box input:nth-child(1){
+	width: 49%;
+}
+
+.input-box input:nth-child(2){
+	width: 49%;
+	float: right;
+}
+
+.birth-day {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.birth-day h2 {
+	font-weight: normal; 
+	font-size: 18px;
+	color: #1d2129;
+	margin-bottom: 5px;
+
+}
+
+.birth-day select {
+	padding: 5px;
+	font-size: 13px;
+	border: 1px solid #bdc7d8;
+	float: left;
+}
+
+.birth-day a{
+	font-size: 11px;
+	width: 150px;
+	color: #365899;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+.gender {
+	margin-top: 15px;
+}
+
+.gender label {
+	color: #1d2129;
+	font-size: 18px;
+	vertical-align: top;
+	line-height: 25px;
+	margin-right: 20px;
+}
+
+.gender p{
+	font-size: 11px;
+	color: #777;
+	width: 316px;
+	margin: 20px 0px;
+}
+
+.gender p a {
+	text-decoration: none;
+	color: #365899;
+
+}
+
+.button p{
+	font-size: 13px;
+	color: #666;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+.button p a{
+	text-decoration: none;
+	color: #365899;
+}
+.button input {
+	padding: 7px 20px;
+	background:  linear-gradient(#67ae55, #578843);
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-radius: 5px;
+	color: #FFF;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	font-size: 19px;
+	cursor: pointer;
+}
+
+
+.fb-footer {
+
+}
+
+.top-footer {
+	border-bottom: 1px solid #dddfe2;
+}
+
+.top-footer ul {
+	list-style:none;
+}
+
+.top-footer ul li {
+	display: inline-block;
+}
+
+.top-footer ul li a {
+	text-decoration: none;
+	color: #365899;
+	font-size: 12px;
+	padding: 13px 5px;
+	display: block;
+}
+
+.middle-footer {
+
+}
+
+.middle-footer ul {
+	list-style:none;
+}
+
+.middle-footer ul li {
+	display: inline-block;
+	width: 8%;
+	
+}
+
+.middle-footer ul li a  {
+	font-size: 12px;
+	color: #365899;
+	text-decoration: none;
+	display: block;
+	padding: 0px 5px;
+}
+
+.bottom-footer p {
+	font-size: 11px;
+	color: #737373;
+	margin: 20px 5px;
+}
+
+
+
+
